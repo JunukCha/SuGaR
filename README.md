@@ -1,3 +1,65 @@
+## Revision
+
+Test Env.: Ubuntu 22.04, RTX 4090, CUDA 11.7
+
+### Install
+```
+git clone https://github.com/JunukCha/SuGaR.git --recursive
+cd SuGaR
+source scripts/install.sh
+```
+
+For viewer,
+```
+source scripts/install_3dgs_viewer.sh
+source scripts/install_sugar_viewer.sh
+```
+
+### Data
+Prepare your own video data or image sequences. If you don't have, download the example data from [this link](). Save this video in `data/examples2/example2.mp4`.
+
+Convert the video to image sequence.
+```
+source scripts/convert_v2i.sh
+```
+
+
+### COLMAP
+If COLMAP is not installed,
+```
+sudo apt-get update
+sudo apt-get install colmap
+```
+
+Run COLMAP
+```
+source scripts/convert_i2c.sh
+```
+
+### 3DGS
+Run 3DGS
+```
+source scripts/run_3dgs.sh
+```
+
+If you want to visualize the result,
+```
+source scripts/view_3dgs.sh
+```
+
+### SuGaR
+Run SuGaR
+```
+source scripts/run_sugar.sh
+```
+
+If you want to visualize the result,
+```
+source scripts/view_sugar.sh
+```
+
+
+
 <div align="center">
 
 # SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering
