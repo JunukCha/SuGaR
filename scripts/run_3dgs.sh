@@ -1,1 +1,1 @@
-python gaussian_splatting/train.py -s data/examples2 --iterations 7000 -m results_3dsgs
+python gaussian_splatting/train.py -s data/examples2 --iterations 7000 -m results_3dgs
