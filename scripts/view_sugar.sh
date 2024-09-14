@@ -1,0 +1,1 @@
+python run_viewer.py -p output/refined_ply/examples2/sugarfine_3Dgs7000_sdfestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1.ply

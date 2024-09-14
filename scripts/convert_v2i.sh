@@ -1,0 +1,1 @@
+python convert_to_images.py --video_path data/examples2/example2.mp4 --output_folder data/examples2/input

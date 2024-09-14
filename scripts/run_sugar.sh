@@ -1,0 +1,1 @@
+python train.py -s data/examples2 -c results_3dsgs/examples2/  -r sdf

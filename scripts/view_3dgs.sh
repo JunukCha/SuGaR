@@ -1,0 +1,1 @@
+gaussian_splatting/SIBR_viewers/install/bin/SIBR_gaussianViewer_app -m results_3dsgs/examples2
