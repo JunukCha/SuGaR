@@ -16,7 +16,7 @@ source scripts/install_sugar_viewer.sh
 ```
 
 ### Data
-Prepare your own video data or image sequences. If you don't have, download the example data from [this link](). Save this video in `data/examples2/example2.mp4`.
+Prepare your own video data or image sequences. If you don't have, download the example data from [this link](https://blog.kakaocdn.net/dn/djFmhg/btsJCK73dLX/mX3dOS1kvuy3oltZiKlmA1/example2.mp4?attach=1&knm=tfile.mp4). Save this video in `data/examples2/example2.mp4`.
 
 Convert the video to image sequence.
 ```
